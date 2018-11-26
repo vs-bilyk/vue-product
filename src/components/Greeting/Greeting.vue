@@ -3,9 +3,9 @@
 </template>
 
 <script>
-    module.exports = {
-        data: {
-            greeting: 'Привет Webpack',
-        },
+    export default {
+        data: () => ({
+            greeting: 'Добро пожаловать!',
+        }),
     };
 </script>

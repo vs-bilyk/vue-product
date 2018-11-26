@@ -1,1 +1,2 @@
-export { Greeting } from './Greeting.vue';
+import Greeting from './Greeting.vue';
+export default Greeting;
