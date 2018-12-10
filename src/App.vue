@@ -9,7 +9,6 @@
 <script>
     import Greeting from './components/Greeting';
 
-    console.log('Greeting', Greeting)
     export default {
         data: () => ({
             name: 'Webpack',
